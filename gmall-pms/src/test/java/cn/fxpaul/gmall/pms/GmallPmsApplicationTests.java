@@ -13,8 +13,9 @@ class GmallPmsApplicationTests {
     private ProductService productService;
 
 
-
-
+    /**
+     *测试查询
+     */
     @Test
     void contextLoads() {
         Product byId = productService.getById(1);
