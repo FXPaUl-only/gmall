@@ -19,6 +19,17 @@
     </properties>
 
     <dependencies>
+        <!--    依赖api层    -->
+        <dependency>
+            <groupId>cn.fxpaul.gmall</groupId>
+            <artifactId>gmall-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <!--     数据源   -->
+
+
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
