@@ -9,7 +9,7 @@ dubbo:
   application:
     name: gmall-pms
   registry:
-    address: zookeeper://47.96.225.9:2182
+    address: zookeeper://47.96.225.9:2181
   protocol:
     name: dubbo
     port: 20880
